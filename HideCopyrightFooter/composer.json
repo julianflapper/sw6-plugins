@@ -1,0 +1,30 @@
+{
+    "name": "dv/hide-copyright-footer",
+    "description": "Hides the Shopware copyright notice in the footer..",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "Restricted",
+    "authors": [
+        {
+            "name": "Digitalvoid",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.1.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "DV\\HideCopyrightFooter\\HideCopyrightFooter",
+        "label": {
+            "en-GB": "Hide 'Realised with Shopware' footer"
+        },
+        "description": {
+            "en-GB": "Hides the Shopware copyright notice in the footer."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "DV\\HideCopyrightFooter\\": "src/"
+        }
+    }
+}

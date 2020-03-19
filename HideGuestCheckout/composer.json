@@ -1,0 +1,30 @@
+{
+    "name": "dv/hide-guest-checkout",
+    "description": "Hides guest checkout option in the storefront.",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "Restricted",
+    "authors": [
+        {
+            "name": "Digitalvoid",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.1.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "DV\\HideGuestCheckout\\HideGuestCheckout",
+        "label": {
+            "en-GB": "Hide guest checkout"
+        },
+        "description": {
+            "en-GB": "Hide guest checkout option in the storefront."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "DV\\HideGuestCheckout\\": "src/"
+        }
+    }
+}

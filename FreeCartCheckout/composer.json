@@ -1,0 +1,30 @@
+{
+    "name": "dv/free-cart-checkout",
+    "description": "Adds a payment method that skips payment, for carts with no value.",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "Restricted",
+    "authors": [
+        {
+            "name": "Digitalvoid",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.1.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "DV\\FreeCartCheckout\\FreeCartCheckout",
+        "label": {
+            "en-GB": "Free cart checkout"
+        },
+        "description": {
+            "en-GB": "Adds a payment method that skips payment."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "DV\\FreeCartCheckout\\": "src/"
+        }
+    }
+}
